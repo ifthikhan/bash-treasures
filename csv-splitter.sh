@@ -1,5 +1,6 @@
 #!/bin/bash
-     
+# Takes a large CSV file and splits into multiple smaller files.
+#
 # check if an input filename was passed as a command
 # line argument:
 if [ ! $# == 1 ]; then
